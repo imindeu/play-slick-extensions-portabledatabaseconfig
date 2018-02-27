@@ -6,6 +6,7 @@ lazy val root = (project in file(".")).
       version      := "0.1.0"
     )),
     name := "play-slick-extensions-portabledatabaseconfig",
+    licenses += ("MIT", url("http://opensource.org/licenses/MIT")),
     libraryDependencies ++= Seq(
       "com.typesafe.play" %% "play-slick"	% "3.0.3"
     )
