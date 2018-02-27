@@ -1,7 +1,7 @@
 lazy val root = (project in file(".")).
   settings(
     inThisBuild(List(
-      organization := "eu.imind",
+      organization := "eu.imind.play",
       scalaVersion := "2.12.4",
       version      := "0.1.0"
     )),
