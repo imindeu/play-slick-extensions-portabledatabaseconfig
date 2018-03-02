@@ -3,7 +3,7 @@ lazy val root = (project in file(".")).
     inThisBuild(List(
       organization := "eu.imind.play",
       scalaVersion := "2.12.4",
-      version      := "0.1.0"
+      version      := "3.0.3"
     )),
     name := "play-slick-extensions-portabledatabaseconfig",
     licenses += ("MIT", url("http://opensource.org/licenses/MIT")),
