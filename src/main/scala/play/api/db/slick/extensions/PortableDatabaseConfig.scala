@@ -18,3 +18,9 @@ class PortableDatabaseConfig(
   override def profileIsObject: Boolean = wrappedDbConfig.profileIsObject
 
 }
+
+object PortableDatabaseConfig {
+
+  def apply(path: String): PortableDatabaseConfig =
+    new PortableDatabaseConfig(DatabaseConfig.forConfig(path))
+}
